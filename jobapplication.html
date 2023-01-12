@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jobform.css">
+    <title>Job Application Form</title>
+</head>
+
+<body>
+    <div class="formlayout">
+        <h1>SpeedyPC Job Application Form</h1>
+        <hr>
+        <label id="position">
+            <B>Position Applied for:</B>
+        </label>
+        <input type=" text" name="position" id="jrf">
+        <label for="jobreff"><b>Job reference code:</b></label>
+        <input type="text" name="jobreff" id="jrf">
+        <hr>
+
+        <label for="firstname"><b>First Name:</b></label>
+        <input type="text" name="firstname" maxlength="30" id="jrf"><br>
+        <label for="lastname"><b>Last Name:</b></label>
+        <input type="text" name="lastname" maxlength="30" id="jrf"><br>
+        <label for="Nationality"><b>Nationality:</b></label>
+        <input type="text" name="Nationality" maxlength="30" id="jrf"><br>
+        <label name="male" name="female"><b>Gender:</b></label>
+        <input type="radio" name="male" value="male" id="jrf">Male
+        <input type="radio" name="female" value="female" id="jrf">female
+        <br>
+        <br>
+        <label for="dob"><b>
+                Date of Birth:</b></label>
+        <input type="date" name="dob" id="jrf">
+        <br>
+        <br>
+        <b>Address:</b>
+        <br>
+        <textarea name="address" cols="30" rows="5" id="jrf"></textarea><br>
+
+        <label for="tel"><b>Telephone:</b></label>
+        <input type="text" name="tel" size="30" id="jrf">
+
+        <label for="email"><b>Email:</b></label>
+        <input type="email" name="email" size="30" required id="email">
+        <hr>
+
+        <h3><b>Educational History </b></h3>
+        <label for="eh">School/college,course studied, Qualifications Received, Grades:</label><br>
+        <textarea name="eh" cols="60" rows="5" id="jrf"></textarea>
+        <br>
+        <label for="eh">Employer, Date, Position/responsibilities:</label><br>
+        <textarea name="eh" cols="60" rows="5" id="jrf"></textarea>
+        <br>
+        <b>Personal Statement:</b><br>
+        <textarea name="eh" cols="60" rows="5" id="jrf"></textarea>
+        <hr>
+
+        <label for="exp"><b>YEARS OF WORK EXPERIENCE:</b></label>
+        <br>
+        <input type="range" name="exp" min="0" max="12" value="0" id="jrf">
+        <hr>
+        <br>
+
+        <B>First Referee Details:</B><BR><BR> First name:
+        <INPUT type="text" name="firstname1" size="30"> Family name:
+        <INPUT type="text" name="surname1" size="30"><BR> Title:
+        <INPUT type="text" name="title" size="8"> Occupation:
+        <INPUT type="text" name="occ1" size="30"><BR> Relationship:
+        <INPUT type="text" name="rel1" size="20"><BR> Address:<BR>
+        <TEXTAREA name="address1" rows="4" cols="30"></TEXTAREA>
+        <BR>
+        Telephone:
+        <INPUT type="text" name="phone1" size="30"> Email:
+        <INPUT type="text" name="email1" size="30"><BR><BR>
+        <B>Second Referee Details:</B><BR><BR> First name:
+        <INPUT type="text" name="firstname1" size="30"> Family name:
+        <INPUT type="text" name="surname1" size="30"><BR> Title:
+        <INPUT type="text" name="title" size="8"> Occupation:
+        <INPUT type="text" name="occ1" size="30"><BR> Relationship:
+        <INPUT type="text" name="rel1" size="20"><BR> Address:<BR>
+        <TEXTAREA name="address1" rows="4" cols="30"></TEXTAREA>
+        <BR>
+        Telephone:
+        <INPUT type="text" name="phone1" size="30"> Email:
+        <INPUT type="text" name="email1" size="30"><BR><BR>
+        <HR>
+        <BR>
+
+        <h3><b>Experiance Details:</b></h3>
+        <label for="since">Worked Since:</label>
+        <select size="3">
+            <option selected>-Select day--</option>
+            <option value="">1st</option>
+            <option value="">2nd</option>
+            <option value="">3rd</option>
+            <option value="">4th</option>
+            <option value="">5th</option>
+            <option value="">6th</option>
+            <option value="">7th</option>
+            <option value="">8th</option>
+            <option value="">9th</option>
+            <option value="">10th</option>
+            <option value="">11th</option>
+            <option value="">12th</option>
+            <option value="">13th</option>
+            <option value="">14th</option>
+            <option value="">15th</option>
+            <option value="">16th</option>
+            <option value="">17th</option>
+            <option value="">18th</option>
+            <option value="">19th</option>
+            <option value="">20th</option>
+            <option value="">21st</option>
+            <option value="">22nd</option>
+            <option value="">23rd</option>
+            <option value="">24th</option>
+            <option value="">25th</option>
+            <option value="">26th</option>
+            <option value="">27th</option>
+            <option value="">28th</option>
+            <option value="">29th</option>
+            <option value="">30th</option>
+            <option value="">31st</option>
+        </select>
+
+        <br>
+        <br>
+        <label for="monthselection">Month:</label>
+        <select name="monthselection" size="3">
+            <option selected>---Select Month---</option>
+            <option value="jan">January</option>
+            <option value="feb">February</option>
+            <option value="mar">March</option>
+            <option value="apr">April</option>
+            <option value="may">may</option>
+            <option value="June">June</option>
+            <option value="July">July</option>
+            <option value="August">August</option>
+            <option value="Sept">September</option>
+            <option value="Oct">October</option>
+            <option value="nov">November</option>
+            <option value="Dec">dec</option>
+        </select>
+
+        <br>
+        <br>
+        <label for="status">Status:</label>
+        <select name="status">
+            <option>Select status:</option>
+            <option>Unemployed</option>
+            <option>Employed</option>
+            <option>student</option>
+
+        </select>
+        <br>
+        <br>
+
+        <label for="intrest">Interested in :</label><br>
+        <input type="checkbox" name="interest">Autos <br>
+        <input type="checkbox" name="interest">Buisness & Finance <br>
+        <input type="checkbox" name="interest">Movies <br>
+        <input type="checkbox" name="interest">Computers & Internet <br>
+        <input type="checkbox" name="interest">Science <br>
+
+        <br>
+        <br>
+        <label for="submit"></label>
+        <input name="submit" type="submit">
+
+    </div>
+
+
+
+
+
+
+
+    </div>
+
+</body>
+
+</html>
